@@ -1,0 +1,34 @@
+insert into "CMD"."GROUP_FUNCTION" ("ID", "NAME", "DESCR") values (1, 'G1', 'description 1');
+insert into "CMD"."GROUP_FUNCTION" ("ID", "NAME", "DESCR") values (2, 'G2', 'description 2');
+insert into "CMD"."GROUP_FUNCTION" ("ID", "NAME", "DESCR") values (3, 'G3', 'description 3');
+
+insert into "CMD"."FUNCTIONS" ("ID", "ID_GROUP", "NAME", "DESCR") values (1, 1, 'F1', 'fun description 1');
+insert into "CMD"."FUNCTIONS" ("ID", "ID_GROUP", "NAME", "DESCR") values (2, 1, 'F2', 'fun description 2');
+insert into "CMD"."FUNCTIONS" ("ID", "ID_GROUP", "NAME", "DESCR") values (3, 1, 'F3', 'fun description 3');
+insert into "CMD"."FUNCTIONS" ("ID", "ID_GROUP", "NAME", "DESCR") values (4, 2, 'F4', 'fun description 4');
+insert into "CMD"."FUNCTIONS" ("ID", "ID_GROUP", "NAME", "DESCR") values (5, 2, 'F5', 'fun description 5');
+insert into "CMD"."FUNCTIONS" ("ID", "ID_GROUP", "NAME", "DESCR") values (6, 2, 'F6', 'fun description 6');
+insert into "CMD"."FUNCTIONS" ("ID", "ID_GROUP", "NAME", "DESCR") values (7, 3, 'F7', 'fun description 7');
+insert into "CMD"."FUNCTIONS" ("ID", "ID_GROUP", "NAME", "DESCR") values (8, 3, 'F8', 'fun description 8');
+insert into "CMD"."FUNCTIONS" ("ID", "ID_GROUP", "NAME", "DESCR") values (9, 3, 'F9', 'fun description 9');
+
+insert into "CMD"."FUN_PARAM" ("ID", "ID_FUN", "NAME", "DESCR") values (1, 1, 'x11', 'param 11');
+insert into "CMD"."FUN_PARAM" ("ID", "ID_FUN", "NAME", "DESCR") values (2, 2, 'x21', 'param 21');
+insert into "CMD"."FUN_PARAM" ("ID", "ID_FUN", "NAME", "DESCR") values (3, 2, 'x22', 'param 22');
+insert into "CMD"."FUN_PARAM" ("ID", "ID_FUN", "NAME", "DESCR") values (4, 3, 'x31', 'param 31');
+insert into "CMD"."FUN_PARAM" ("ID", "ID_FUN", "NAME", "DESCR") values (5, 3, 'x32', 'param 32');
+insert into "CMD"."FUN_PARAM" ("ID", "ID_FUN", "NAME", "DESCR") values (6, 3, 'x33', 'param 33');
+insert into "CMD"."FUN_PARAM" ("ID", "ID_FUN", "NAME", "DESCR") values (7, 4, 'x41', 'param 41');
+insert into "CMD"."FUN_PARAM" ("ID", "ID_FUN", "NAME", "DESCR") values (8, 4, 'x42', 'param 42');
+insert into "CMD"."FUN_PARAM" ("ID", "ID_FUN", "NAME", "DESCR") values (9, 4, 'x43', 'param 43');
+insert into "CMD"."FUN_PARAM" ("ID", "ID_FUN", "NAME", "DESCR") values (10, 5, 'x51', 'param 51');
+insert into "CMD"."FUN_PARAM" ("ID", "ID_FUN", "NAME", "DESCR") values (11, 5, 'x52', 'param 52');
+insert into "CMD"."FUN_PARAM" ("ID", "ID_FUN", "NAME", "DESCR") values (12, 5, 'x53', 'param 53');
+insert into "CMD"."FUN_PARAM" ("ID", "ID_FUN", "NAME", "DESCR") values (13, 6, 'x61', 'param 61');
+insert into "CMD"."FUN_PARAM" ("ID", "ID_FUN", "NAME", "DESCR") values (14, 6, 'x62', 'param 62');
+insert into "CMD"."FUN_PARAM" ("ID", "ID_FUN", "NAME", "DESCR") values (15, 7, 'x71', 'param 71');
+insert into "CMD"."FUN_PARAM" ("ID", "ID_FUN", "NAME", "DESCR") values (16, 8, 'x81', 'param 81');
+insert into "CMD"."FUN_PARAM" ("ID", "ID_FUN", "NAME", "DESCR") values (17, 8, 'x82', 'param 82');
+insert into "CMD"."FUN_PARAM" ("ID", "ID_FUN", "NAME", "DESCR") values (18, 9, 'x91', 'param 91');
+insert into "CMD"."FUN_PARAM" ("ID", "ID_FUN", "NAME", "DESCR") values (19, 9, 'x92', 'param 92');
+insert into "CMD"."FUN_PARAM" ("ID", "ID_FUN", "NAME", "DESCR") values (20, 9, 'x91', 'param 91');
